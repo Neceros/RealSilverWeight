@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Silver"]/statBases/Mass</xpath>
+    <value>
+      <Mass>0.00403</Mass>
+    </value>
+  </Operation>
+
+</Patch>
